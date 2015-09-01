@@ -1,0 +1,14 @@
+# Site settings
+title: "swirl: Learn R, in R."
+email: info@swirlstats.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://swirlstats.com" # the base hostname & protocol for your site
+
+collections:
+  blog:
+    output: true
+
+markdown: kramdown
+
+kramdown:
+  input: GFM

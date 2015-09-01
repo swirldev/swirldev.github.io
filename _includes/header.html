@@ -1,0 +1,23 @@
+<div class="header">
+  <ul class="nav nav-pills nav-justified">
+  		{% assign pills = "home learn teach contribute blog faq help" | split: ' ' %}
+  		{% assign sites = "/ students instructors contributors blog faq help" | split: ' ' %}
+  		{% assign text = "Home Learn Teach Contribute Blog FAQ Help" | split: ' ' %}
+
+  		{% for pill in pills %}
+  			{% if page.active == pill %}
+  				{% if page.active == "home" %}
+  					<li class="active"><a href="/">Home</a></li>
+  				{% else %}
+  					<li class="active"><a href={{ sites[forloop.index0] | append:'.html' | prepend:'/' }}>{{ text[forloop.index0] }}</a></li>
+  				{% endif %}
+  			{% else %}
+  				{% if pill == "home" %}
+  					<li><a href="/">Home</a></li>
+  				{% else %}
+  					<li><a href={{ sites[forloop.index0] | append:'.html' | prepend:'/' }}>{{ text[forloop.index0] }}</a></li>
+  				{% endif %}
+  			{% endif %}
+  		{% endfor %}
+  </ul>
+</div>

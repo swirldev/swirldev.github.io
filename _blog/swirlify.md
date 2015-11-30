@@ -7,7 +7,7 @@ date: 2015-11-30 15:10:00
 
 # Introducing swirlify!
 
-Have you ever wanted to write your own swirl course before? Now it's easier than ever! Team swirl is proud to announce swirlify, an R package for writing swirl courses. The swirlify package includes functions for adding question templates, sharing your course, testing your course, and even licensing your course. We've designed swirlify to be used with the latest version of RStudio, which you can download [here](https://www.rstudio.com/products/rstudio/download/). Now for a quick demo of how you can use swirlify:
+Have you ever wanted to write your own swirl course? Now it's easier than ever! Team swirl is proud to announce swirlify, an R package for writing swirl courses. The swirlify package includes functions for adding question templates, sharing your course, testing your course, and even licensing your course. We've designed swirlify to be used with the latest version of RStudio, which you can download [here](https://www.rstudio.com/products/rstudio/download/). Now for a quick demo of how you can use swirlify:
 
 ```r
 # We're on CRAN! 😍

@@ -10,7 +10,7 @@ The swirl R package makes it fun and easy to learn R programming and data scienc
 
 ## Step 1: Get R
 
-In order to run swirl, you must have R 3.0.2 or later installed on your computer. If you are on a Linux operating system, please visit our [Installing swirl on Linux](https://github.com/swirldev/swirl/wiki/Installing-swirl-on-Linux){:target="_blank"} page.
+In order to run swirl, you must have R 3.1.0 or later installed on your computer. If you are on a Linux operating system, please visit our [Installing swirl on Linux](https://github.com/swirldev/swirl/wiki/Installing-swirl-on-Linux){:target="_blank"} page.
 
 If you need to install R, you can do so [here](http://cran.rstudio.com/){:target="_blank"}.
 

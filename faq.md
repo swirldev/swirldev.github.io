@@ -13,7 +13,7 @@ active: faq
 <p class="answer">For a more technical discussion of swirl's inner workings, please visit our <a href="https://github.com/swirldev/swirl" target="_blank">GitHub repository</a>. The project is entirely open source, so you're only limited by your own curiosity.</p>
 
 <p class="question">Who is swirl's intended audience?</p>
-<p class="answer">Most of the original swirl content was developed with beginners in mind. We have added more advanced topics over time and will continue to do so in the future. For the most up-to-date course information, check out our <a href="https://github.com/swirldev/swirl_courses#swirl-courses" target="_blank">course repository</a>.</p>
+<p class="answer">Most of the original swirl content was developed with beginners in mind. We have added more advanced topics over time and will continue to do so in the future. For the most up-to-date course information, check out our <a href="https://github.com/swirldev/swirl_courses#swirl-courses" target="_blank">course repository</a> and for even more courses visit <a href="http://swirlstats.com/scn/" target="_blank">the Swirl Course Network</a>.</p>
 
 <p class="question">What do I need to use swirl?</p>
 <p class="answer">Check out our <a href="students.html">Students page</a> for step-by-step instructions on getting started with swirl. Most importantly, you'll need a computer with an internet connection and a recent version of R installed. We highly recommend you get RStudio as well.</p>
@@ -42,6 +42,6 @@ active: faq
 <p>If you want all of the latest features and content, but don't feeling like waiting around for the official updates to be released, you can always access the development version of swirl via our <a href="https://github.com/swirldev/swirl" target="_blank">GitHub repository</a>. Here's the process for installing and running the development version of swirl directly from the R console:</p>
 <pre>> install.packages("devtools")
 > library(devtools)
-> install_github("swirldev/swirl")
+> install_github("swirldev/swirl", ref = "dev")
 > library(swirl)
 > swirl()</pre>

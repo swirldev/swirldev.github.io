@@ -24,6 +24,3 @@ active: help
 
 <h2>Suggestions</h2>
 <p>If you have suggestions for how we can improve swirl, we're all ears! Please post a <a href="https://github.com/swirldev/swirl/issues/new" target="_blank">New Issue</a> on the <a href="https://github.com/swirldev/swirl/issues" target="_blank">Issues page</a> of our GitHub repository outlining your proposed enhancement.</p>
-
-<h2>Something else</h2>
-<p>If you need to contact us for any other reason, feel free to <a href="mailto:info@swirlstats.com" target="_blank">send us an email</a>.</p>

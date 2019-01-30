@@ -46,6 +46,6 @@ add_license()
 pack_course()
 ```
 
-You can find extensive documentation for swirlify in our [wiki](https://github.com/swirldev/swirlify/wiki). If you have any questions about using swirlify we encourage you to contact us at [info@swirlstats.com](mailto:info@swirlstats.com).
+You can find extensive documentation for swirlify in our [wiki](https://github.com/swirldev/swirlify/wiki).
 
 **-Team swirl**
